@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment-6</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+            rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    </head>
+
+    <body class="container mx-auto text-black">
+        <!---------------- header start -------------->
+        <header>
+            <!---------------- nav start -------------->
+            <nav id="nav-container bg-white">
+                <div class="navbar  py-8">
+
+                    <div class="navbar-start">
+                        <figure>
+                            <img src="image/Logo.png" alt>
+                        </figure>
+                    </div>
+
+                    <div id="short-view-bitton" class="navbar-center">
+                        <a href="index.html" class="inline-block">
+                            <button class="btn">home </button>
+                        </a>
+                    </div>
+
+                    <div id="blog-button" class="navbar-end">
+                        <a href="blog.html" class="inline-block">
+                            <button class="btn">Blog</button>
+                        </a>
+                    </div>
+                </div>
+            </nav><!---------------- nav end -------------->
+            <hr>
+        </header><!---------------- header end -------------->
+
+        <main>
+            <section>
+                <h2
+                    class="mx-auto text-center bg-[#060614] text-white w-9/12 py-4 text-xl font-medium">Answers
+                    to some common, var, let, and const questions</h2>
+                <div>
+                    <div class="bg-[#060614] p-4 w-9/12 mx-auto mt-6">
+                        <p class="text-white text-xl font-medium">
+                            "var" হল একটি প্রোগ্রামিং কীওয়ার্ড যা
+                            বিভিন্ন প্রোগ্রামিং ভাষাগুলির মধ্যে ব্যবহৃত হয়,:<br />
+
+                            ভ্যারিয়েবল ডিক্লেয়ারেশন (Variable Declaration):
+                            "var" কীওয়ার্ডটি ভ্যারিয়েবল ডিক্লেয়ারেশনের সাথে
+                            ব্যবহৃত হয় প্রোগ্রামিং ভাষাগুলিতে, এবং
+                            অন্যান্য। এটি একটি নির্দিষ্ট ভ্যারিয়েবল ডিক্লেয়ার
+                            করে সেটকে ব্যবহার করতে সাহায্য করে।
+                        </p>
+                    </div>
+
+                    <div class="bg-[#060614] p-4 w-9/12 mx-auto mt-6">
+                        <p class="text-white text-xl font-medium">
+                            "let" একটি প্রোগ্রামিং শব্দ বা কীওয়ার্ড হয়, যা
+                            বিভিন্ন প্রোগ্রামিং ভাষাগুলির মধ্যে ব্যবহৃত হয়ে
+                            থাকে,:<br />
+
+                            ভ্যারিয়েবল ডিক্লেয়ারেশন (Variable Declaration):
+                            "let" কীওয়ার্ডটি ভ্যারিয়েবল ডিক্লেয়ারেশনের সাথে
+                            ব্যবহৃত হয় প্রোগ্রামিং ভাষাগুলিতে, এটি একটি
+                            নির্দিষ্ট ভ্যারিয়েবল ডিক্লেয়ার করে সেটকে ব্যবহার
+                            করতে সাহায্য করে।
+                        </p>
+                    </div>
+
+                    <div class="bg-[#060614] p-4 w-9/12 mx-auto mt-6">
+                        <p class="text-white text-xl font-medium">
+                            "const" একটি
+                            প্রোগ্রামিং শব্দ, একটি মৌলিক
+                            কনসেপ্ট দেওয়ার জন্য ব্যবহৃত হয়।:
+
+                            Constant Variables: "const" দ্বারা ডিক্লেয়ার করা
+                            ভেরিয়েবল একবার মৌলিক মান সেট করা হয় এবং পরে সেট
+                            মান
+                            পরিবর্তন করা যায় না। এই ধরণের ভেরিয়েবলের মান
+                            স্থিতিশীল
+                            হয় এবং প্রোগ্রামের যেখানেই ব্যবহৃত হোক, সেখানে সেই
+                            মানটি পরিবর্তন হয় না।
+                        </p>
+                    </div>
+                    <div class="bg-[#060614] p-4 w-9/12 mx-auto mt-6">
+                        <p class="text-white text-xl font-medium">
+                            "null" এই মৌলিক মানটি বিভিন্ন প্রোগ্রামিং ভাষাগুলিতে
+                            ব্যবহৃত হতে পারে, এবং এটি ডেটা ইনস্ট্যান্সের
+                            অস্তিত্ব এবং অস্তিত্ব না থাকার প্রস্তাবনা দেখানোর
+                            জন্য ব্যবহৃত হতে পারে।
+                        </p>
+                    </div>
+
+                    <div class="bg-[#060614] p-4 w-9/12 mx-auto mt-6">
+                        <p class="text-white text-xl font-medium">
+                            (Variable Declaration and Primitive State): একটি
+                            ভ্যারিয়েবল যেখানে কোনো মৌলিক মান নেই, সেখানে তার
+                            ডিফল্ট অবস্থা "undefined" হতে পারে। এটি ভ্যারিয়েবল
+                            ডিক্লেয়ার করার পর এটির মান সেট না করলে তা
+                            "undefined" থাকে।
+                        </p>
+                    </div>
+
+                    <div class="bg-[#060614] p-4 w-9/12 mx-auto mt-6">
+                        <p class="text-white text-xl font-medium">
+                            REST API একটি সফটওয়্যার ইন্টারফেস ডিজাইন প্যারাডাইম
+                            যা ওয়েব সার্ভার এবং ক্লায়েন্ট মধ্যে ডেটা এবং
+                            সার্ভিস যোগানের জন্য ব্যবহৃত হয়।<br />
+                            REST API-এর নাম "Representational State Transfer"
+                            থেকে এসেছে,
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </body>
+
+</html>

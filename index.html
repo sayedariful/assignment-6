@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment-6</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+            rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    </head>
+
+    <body class="container mx-auto text-black">
+
+        <!---------------- header start -------------->
+        <header>
+            <!---------------- nav start -------------->
+            <nav id="nav-container bg-white">
+                <div
+                    class="navbar flex flex-col sm:flex-col-2 lg:flex-row md:flex-row justify-between py-8">
+
+                    <div class>
+
+                        <figure>
+                            <img src="image/Logo.png" alt>
+                        </figure>
+                    </div>
+
+                    <div id="short-view-bitton" class>
+                        <button onclick="handleShort()" class="btn bg-lime-500">Sort
+                            by view</button>
+                    </div>
+
+                    <div id="blog-button" class>
+                        <a href="blog.html" class="inline-block">
+                            <button onclick="handleBlog()"
+                                class="btn bg-lime-500">Blog</button>
+                        </a>
+                    </div>
+                </div>
+            </nav><!---------------- nav end -------------->
+            <hr>
+        </header><!---------------- header end -------------->
+
+        <!-------------------- main start ----------------->
+        <main>
+            <!------------------ tab bar start ------------->
+            <section>
+                <div class="tab-container w-full">
+                    <div id="tab-container"
+                        class="tabs-boxed bg-white my-7 text-black flex gap-4 justify-center tabs tabs p-5 m-auto text-center">
+                    </div>
+                </div>
+            </section>
+
+            <section>
+
+                <div id="card-container"
+                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+
+                    <!-- <div class="card bg-base-100 shadow-xl">
+                   
+                        <div>
+                            <figure>
+                                <img src="image/Icon.png" />
+                            </figure>
+                        </div>
+
+                        <div class="card-body">
+    
+                            <div class="flex">
+                                <figure>
+                                    <img src="image/Readme.md" />
+                                </figure>
+                                <h2 class="card-title">Building a Winning UX
+                                    Strategy Using the Kano Model</h2>
+                            </div>
+
+                        
+                            <div class="mt-4 pl-2">
+                                <div class="flex">
+                                    <div class="flex">
+                                        <p class="inline">Awlad Hossain</p>
+                                        <figure>
+                                            <img src="image/fi_10629607.svg" alt>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <p>91K views</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+            <!-- <img class="" alt=""> -->
+        </main>
+
+        <!-- script -->
+        <script src="js/index.js"></script>
+    </body>
+
+</html>
